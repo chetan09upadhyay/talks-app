@@ -4,14 +4,14 @@ import SearchInput from './SearchInput';
 
 const Sidebar = () => {
   return (
-    <div className='border border-slate-500 p-4 flex flex-col '>
+      <div className='   border border-slate-500 p-4 flex flex-col '>
         <SearchInput />
         <div className="divider px-3"></div>
 
         <Conversations />
 
-        <LogoutButton /> 
-    </div>
+        <LogoutButton />
+      </div>
   )
 }
 
